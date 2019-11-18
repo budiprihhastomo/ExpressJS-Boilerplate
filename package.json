@@ -1,0 +1,29 @@
+{
+  "name": "express_boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for NodeJS with ExpressJS",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Budi Prih Hastomo",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "mysql2": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/budiprihhastomo/ExpressJS-Boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/budiprihhastomo/ExpressJS-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/budiprihhastomo/ExpressJS-Boilerplate#readme"
+}
